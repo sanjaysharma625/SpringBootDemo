@@ -17,7 +17,7 @@ public class MainController {
     @RequestMapping("/")
     public String index() {
     	
-    	System.out.println("Inside index method of main controller");
+    	System.out.println("Hello. This is inside index method of main controller");
         Iterable<Person> all = personDAO.findAll();
         StringBuilder sb = new StringBuilder();
  
